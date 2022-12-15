@@ -76,8 +76,6 @@
         </div>
 
 
-
-
             <div class="form-fill  p-3 me-5 mt-2 " id="step2">
             <h1 class="font-weight-bold" style="font-family:'oswald bold'; color:rgb(9, 9, 80);">Select your plan</h1>
             <h5 style="color:rgb(199, 190, 190);font-family: 'oswald'; font-size:15px; letter-spacing: -0.5px;">You have the option of monthly or yearly billing.</h5>
@@ -87,21 +85,21 @@
                   <div class="card-body">
                     <img class="mb-5"src="assets/images/icon-arcade.svg">
                     <h5 class="card-title">Arcade</h5>
-                    <p class="card-text">$9/mo</p>                  
+                    <p class="card-text">$<span>9</span>/mo</p>                  
                   </div>
                 </div>
                 <div class="card me-3" style="width: 18rem;">
                   <div class="card-body">
                     <img class="mb-5" src="assets/images/icon-advanced.svg">
                     <h5 class="card-title">Advanced</h5>
-                    <p class="card-text">$12/mo</p>                  
+                    <p class="card-text">$<span>12</span>/mo</p>                  
                   </div>
                 </div>
                 <div class="card me-3" style="width: 18rem;">
                   <div class="card-body">
                     <img class="mb-5" src="assets/images/icon-pro.svg">
                     <h5 class="card-title">Pro</h5>
-                    <p class="card-text">$15/mo</p>                  
+                    <p class="card-text">$<span>15</span>/mo</p>                  
                   </div>
                 </div>
                 </div>
@@ -119,7 +117,6 @@
         </div>
 
 
-
            <div class="form-fill p-3 me-5 mt-2" id="step3">
             <h1 class="font-weight-bold" style="font-family:'oswald bold'; color:rgb(9, 9, 80);">Pick add-ons</h1>
             <h5 style="color:rgb(199, 190, 190);font-family: 'oswald'; font-size:15px; letter-spacing: -0.5px;">Add-ons help enhance your gaming experience.</h5>
@@ -127,44 +124,75 @@
                 <div class="form-group">
                   <div class="border border-primary rounded-2 d-flex align-items-center mb-3">
                     <div>
-                    <input class="form-check-input mx-3" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input mx-3" id="option1" type="checkbox"  value="" aria-label="...">
                     </div>
                     <div class="d-flex align-items-center justify-content-between" style="width:100%;">
                     <div class="p-2">
                     <p class="font-weight-bold mb-0">Online Service</p>
                     <p class='mb-0' style="color: rgb(199, 190, 190);font-size:0.9rem">Access to multiplayer games.</p>
                     </div>
-                    <span class="me-3">+1$/mo</span>
+                    <span class="me-3">+<span>10</span>$/mo</span>
                     </div>
                   </div>
                  
                   <div class="border border-primary rounded-2 d-flex align-items-center mb-3">
                     <div>
-                    <input class="form-check-input mx-3" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input mx-3" id="option2" type="checkbox"  value="" aria-label="...">
                     </div>
                     <div class="d-flex align-items-center justify-content-between" style="width:100%;">
                     <div class="p-2">
-                    <p class="font-weight-bold mb-0">Online Service</p>
-                    <p class='mb-0' style="color: rgb(199, 190, 190);font-size:0.9rem">Access to multiplayer games.</p>
+                    <p class="font-weight-bold mb-0">Larger Storage</p>
+                    <p class='mb-0' style="color: rgb(199, 190, 190);font-size:0.9rem">Extra 1TB of cloud save</p>
                     </div>
-                    <span class="me-3">+1$/mo</span>
+                    <span class="me-3">+<span>20</span>$/mo</span>
                     </div>
                   </div>
                  
                   <div class="border border-primary rounded-2 d-flex align-items-center mb-3">
                     <div>
-                    <input class="form-check-input mx-3" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                    <input class="form-check-input mx-3" type="checkbox" id="option3" value="" aria-label="...">
                     </div>
                     <div class="d-flex align-items-center justify-content-between" style="width:100%;">
                     <div class="p-2">
-                    <p class="font-weight-bold mb-0">Online Service</p>
-                    <p class='mb-0' style="color: rgb(199, 190, 190);font-size:0.9rem">Access to multiplayer games.</p>
+                    <p class="font-weight-bold mb-0">Customizable Profit</p>
+                    <p class='mb-0' style="color: rgb(199, 190, 190);font-size:0.9rem">Custom theme on your profile</p>
                     </div>
-                    <span class="me-3">+1$/mo</span>
+                    <span class="me-3">+<span>20</span>$/mo</span>
                     </div>
                   </div>
                   <button class="btn goback">Go Back</button>
                   <button class="btn next-step">Next Step</button>
+              </form>
+        </div>
+</div>
+
+           <div class="form-fill p-3 me-5 mt-2" id="step4">
+            <h1 class="font-weight-bold" style="font-family:'oswald bold'; color:rgb(9, 9, 80);">Finishing up</h1>
+            <h5 style="color:rgb(199, 190, 190);font-family: 'oswald'; font-size:15px; letter-spacing: -0.5px;">Double-check everything looks OK before confirming.</h5>
+              <form>
+                <div class="form-group">
+                  <div class="card  bg-light border-0" style="width: 25rem;">
+                    <div class="card-body">
+                      <div class="info d-flex justify-content-between">
+                      <h5 class="card-title" id="step2info">Arcade(monthly)</h5> <h5 id="step2price">$12/mo</h5></div>
+                      <hr>
+                      <div class="info d-flex justify-content-between step3info d-none">
+                        <p>Online Service</p><h6 id="step3price">+$10/mo</h6>
+                      </div>
+                      <div class="info d-flex justify-content-between step3info  d-none ">
+                        <p>Larger Storage</p><h6>+$20/mo</h6>
+                      </div>
+                      <div class="info d-flex justify-content-between step3info  d-none">
+                        <p>Customizable profit</p><h6>+$20/mo</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div style='width:25rem;' class="info d-flex justify-content-between">
+                    <h6 class="m-3" >Total (per month)</h6><h6 class="m-3">$<span id="renderTotal"></span>/mo</h6>
+                    </div>
+               </div>
+                  <button class="btn goback">Go Back</button>
+                  <button class="btn next-step">Confirm</button>
               </form>
         </div> 
 </div>

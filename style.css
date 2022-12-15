@@ -109,3 +109,7 @@ body{
 #card_error{
     display: none;
 }
+.extraInfo{
+    display:initial !important;
+    display:flex !important;
+}
