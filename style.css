@@ -20,16 +20,18 @@ body{
     justify-content: center;
     align-items: center;
     height:100vh;
+    font-family: 'oswald medium';
 }
 .container{
-    height:80%;
-    width:65%;
+    height:80vh;
+    width:65vw;
 }
 .current-info{
     height:90%;
     width:30%;
     background:url('assets/images/bg-sidebar-desktop.svg');
     background-size:cover;
+    flex-shrink: 0;
 }
 .steps{
     color:white;
@@ -52,10 +54,16 @@ body{
 .step-item{
     font-family: monospace;
 }
+.form-parent{
+  width:3000px;
+  overflow:hidden;
+}
 .form-fill{
-    width: 61%;
+    width:500px;
     height:80%;
-    margin-left: 50px;
+    margin-left: 60px;
+    flex-shrink: 0;
+    transition: 0.3s all;
 }
 .form-group{
     font-family: 'oswald medium';
@@ -65,4 +73,39 @@ body{
     color:white;
     float: right;
     margin-top:72px;
+}
+.goback{
+    margin-top:70px;
+}
+.card:hover{
+    cursor:pointer;
+}
+.mo-year{
+    background:rgb(240, 229, 229);
+    height:2.8rem;
+    font-size:1rem;
+    margin-top:1rem;
+}
+.left-translate{
+    transform: translateX(-1200px);
+}
+.current-step{
+    transform:translateX(-600px);
+    transition: 0.3s all;
+}
+.card-option{
+    border:1px solid black !important;
+    background: #ecf9f8;
+    transition: 0.3s all;
+}
+.warning{
+    border:1px solid red !important;
+}
+.warn-msg{
+    float:right;
+    color:red;
+    display: none;
+}
+#card_error{
+    display: none;
 }
