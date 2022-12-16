@@ -1,2 +1,4 @@
 # Multi-part-form
-form by frontendmentor
+A multi step form.
+This is a challenge given by FrontEndMaster.com
+
