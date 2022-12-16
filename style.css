@@ -109,7 +109,19 @@ body{
 #card_error{
     display: none;
 }
+.card_error{
+    display: none;
+}
 .extraInfo{
     display:initial !important;
     display:flex !important;
+}
+.new-bg{
+    background:rgb(244, 248, 248);
+    border: 1px solid #460946 !important;
+    transition:0.2s all;
+}
+.btn:hover{
+    background:rgb(61, 18, 110) !important;
+    color:white;
 }
